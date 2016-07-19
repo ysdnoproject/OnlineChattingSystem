@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+a:link,a:visited{
+ text-decoration:none;  /*超链接无下划线*/
+}
+
+ a:hover{
+ color:#FF5511;
+ }
+
+.header{
+	background:url(../images/bg.png);
+	padding: 1em 0 2em 0;
+	border-top: 10px solid #21A9AD;
+}
+.logo{
+	text-align: center;
+	padding: 3em 0 0.5em 0;
+}
+.wel-mesg{
+	font-family: '宋体', sans-serif;
+	text-align:center;
+	background:#FFF;
+	padding: 1em 0 1.8em 0;
+}
+.wel-mesg h2{
+	font-family: '宋体', sans-serif;
+	font-size: 2em;
+	color: #3e454d;
+	padding: 0.2em 0 0.1em 0;
+	text-transform: uppercase;
+}
+.wel-mesg p{
+	font-size: 1.2em;
+	color: #999;
+	font-weight: normal;
+}
+
+.wel-mesg a{
+	color: #FFF;
+	padding: 0.8em 2em;
+	background: #3E454D;
+	display: inline-block;
+	border-radius: 0.3em;
+	font-size: 0.875em;
+	text-transform: uppercase;
+	margin-top: 1.5em;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.wel-mesg a:link,a:visited{
+ text-decoration:none;  /*超链接无下划线*/
+}
+
+.wel-mesg a:hover{
+	background:#22B4B8;
+}
+
+.border{
+	height: 10px;
+	background: url(../images/border.gif) repeat-x;
+}
+
+.bottom{
+	background:url(../images/slider1.jpg);
+	padding: 14em 0 0 0;
+}
+
+.login{
+	font-family:"宋体";
+	font-size: 2em;
+	font-weight:bold;
+	text-align:center;
+	background:#FFF;
+	padding: 1em 0 1.8em 0;
+}
+
+.login-bottom-message{
+	font-family: '宋体';
+	text-align:center;
+	background:#FFF;
+	padding: 2.5em 0 1.8em 0;
+}
+
+.login-bottom-message p{
+	font-size: 1.2em;
+	color: dark;
+	font-weight: bold;
+}
+
+.login-bottom-register{
+	text-align:center;
+	padding: 0em 0 1em 0;
+}
+
+.login-bottom-register a{
+	color: #FFF;
+	padding: 0.8em 2em ;
+	background: #3E454D;
+	display: inline-block;
+	border-radius: 0.3em;
+	font-size: 0.875em;
+	text-transform: uppercase;
+	margin-top: 1.5em;
+	-webkit-transition: all 0.3s ease-out;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+.login-bottom-register a:link,a:visited{
+ text-decoration:none;  /*超链接无下划线*/
+}
+
+.login-bottom-register a:hover{
+	background:#22B4B8;
+}
+
+#divMain{
+            	margin:0 auto;
+            	margin-top:10px
+            }
+            .divShow{
+            	text-align:left;
+            	border:solid 1px #ccc;
+            	height:400px;
+            	width:900px;
+            	padding:5px;
+            	font-size:12px;
+            	overflow-y:scroll;
+            	word-break:break-all
+            }
+            
+            .divOnline{
+                text-align:left;
+            	border:solid 1px #ccc;
+            	height:400px;
+            	width:200px;
+            	padding:5px;
+            	overflow-y:scroll;
+            	overflow-x:scroll;
+            	white-space:nowrap
+            	}
+            
+            #divMain{
+            	width:1300px;
+            	border:solid 5px #ccc
+            }
+            #divMain .divtip{
+            	padding:10px;
+            }
+            #divMain .divtop{
+            	width:1239px;
+            }
+            #divMain .divtop .divL{
+            	padding-left:20px;
+            	float:left;
+            	width:900px;
+            	heihgt:300px;
+            }
+            #divMain .divtop .divR{
+            	float:right;
+            	width:250px;
+            }
+            #divMain .divBot{
+            	clear:both;
+            	padding:15px;
+            }
+            #divMain .divBot .txt{
+            	width:900px;
+            }
+            #divFace{
+            	text-align:left;
+            }
+            #spnMsg{position:absolute;border:solid 1px #cc3300;padding:2px;background-color:#ffe0a3;display:none}
+            
+           #divMain .divmenu{
+            	width:1200px;
+            }
+            #divMain .divmenu .divuserinfo{
+            	padding-left:20px;
+            	float:left;
+            	width:430px;
+            	heihgt:300px;
+            }
+            #divMain .divmenu .divmanager{
+             	background-color: #eee;
+             	border: 1px solid #009be3;
+            	float:right;
+            	width:748px;
+            	height:107px;
+            }
+            #divMain .divmenu .roomlogo
+			{
+				text-align: center;
+				padding: 0 0 0.5em 0;
+			}
+			#divMain .divmenu .roommanager
+			{
+				text-align: center;
+				padding: 0 0 0.5em 0;
+			}
+}
+
+
+
+.managerbottom
+{
+	padding:5px;
+}
+
+.divShowUsers{
+          	border:solid 1px #ccc;
+          	height:500px;
+          	width:1300px;
+          	padding:5px;
+          	font-size:12px;
+          	overflow-y:scroll
+}
